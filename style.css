@@ -1,7 +1,92 @@
-html, body {
-  margin: 0;
-  padding: 0;
+:root {
+    --amarelo-principal: rgb(236, 240, 27);
+    --preto-secundario: black;
+    --cor-de-fundo: white;
+    --fonte-principal: 'Nerko One';
 }
-canvas {
-  display: block;
+
+.titulo{
+    font-size: 48px;
+    color: var(--amarelo-principal);
+    font-family:var(--fonte-principal);
+    text-align: center;
+    background-color: var(--preto-secundario);
 }
+
+.titulo_fotos {
+    text-align: center;
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 26px;
+    background-color: var(--amarelo-principal);
+    color: var(--preto-secundario);
+    justify-content: left;
+    font-family: var(--fonte-principal);
+}
+
+.apresentação {
+    display: flex;
+    background-color: var(--amarelo-principal);
+}
+
+.sobre {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+
+}
+
+.Logo {
+    height: 198px;
+}
+
+.redes_sociais {
+    font-size: 10px;
+    background-color: var(--preto-secundario);
+    color: var(--amarelo-principal);
+    margin: -2em 0 0 0;
+   text-align: center;
+   margin-top: -1.2em;
+}
+
+
+.fotos_1 {
+    background-color: var(--cor-de-fundo);
+    margin: -1.5em 0 0 0;
+}
+
+.fotos_2 {
+    background-color: var(--cor-de-fundo);
+    margin: -1.5em 0 0 0;
+}
+
+.fotos_3 {
+    background-color: var(--cor-de-fundo);
+    margin: -1.5em 0 0 0;
+}
+
+.fotos_pao_de_queijo {
+    height: 300px;
+    display: flexbox;
+    overflow-x: auto;
+    gap: 8px;
+}
+
+.fotos_queijos {
+    height: 290px;
+    display: flexbox;
+    overflow-x: auto;
+    gap: 8px;
+}
+
+.fotos_eventos {
+    height: 330px;
+    display: flexbox;
+    overflow-x: auto;
+    gap: 5px;
+ }
